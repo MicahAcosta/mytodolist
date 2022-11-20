@@ -18,7 +18,7 @@ pipeline{
           } 
         }    
 
-        stage('Tests') {
+        stage('Test') {
           steps{
             sh 'gradle test'
           } 
